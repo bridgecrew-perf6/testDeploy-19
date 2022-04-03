@@ -1,9 +1,11 @@
 const express = require("express");
 const app = express();
 const path = require("path");
+const fs = require("fs");
 
 app.get("/*", (req, res) => {
-  res.send("/assets/Ch22_nonPBR.fbx");
+  const file = fs.readFileSync(path.join(__dirname, "/assets/Ch22_nonPBR.fbx"));
+  console.log(file);
 });
 
 app.listen(process.env.PORT || 3000, () => {
