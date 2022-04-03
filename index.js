@@ -3,7 +3,7 @@ const app = express();
 const path = require("path");
 
 app.get("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "/assets/Ch22_nonPBR.fbx"));
+  res.send("/assets/Ch22_nonPBR.fbx");
 });
 
 app.listen(process.env.PORT || 3000, () => {
