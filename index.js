@@ -14,7 +14,7 @@ app.get("/Ch22_nonPBR.fbx", (req, res) => {
 });
 
 app.get("/Ch31_nonPBR.fbx", (req, res) => {
-  res.redirect("Ch22_nonPBR.fbx");
+  res.redirect("Ch31_nonPBR.fbx");
 });
 
 app.listen(process.env.PORT || 3000, () => {
