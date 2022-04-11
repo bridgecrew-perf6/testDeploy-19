@@ -4,10 +4,11 @@ const path = require("path");
 const fs = require("fs");
 const cors = require("cors");
 const bodyParser = require("body-parser");
+require("dotenv").config();
 
 // app.use("/", express.static())
-app.use(bodyParser.urlencoded({extended:true}))
-app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 app.use(express.static("assets"));
 app.use(cors());
 app.options("*", cors());
