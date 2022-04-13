@@ -1,0 +1,23 @@
+{
+    "m_Name": "Settings",
+    "m_Path": "ProjectSettings/Packages/com.unity.connect.share/Settings.json",
+    "m_Dictionary": {
+        "m_DictionaryValues": [
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "firstTime",
+                "value": "{\"m_Value\":false}"
+            },
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "autoPublish",
+                "value": "{\"m_Value\":true}"
+            },
+            {
+                "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "buildOutputDirList",
+                "value": "{\"m_Value\":\"U:/Unity Projects/Unity 2021.1.24f1/IView Projects/Windows_WebGL/Build;U:/Unity Projects/Unity 2020.3.10f/FBXImporter/RuntimeAvatarAnimations/Windows_WebGL/Build;D:/FBXImpoter_Backup/FBXImpoter/Build/WebGL;;;;;;;\"}"
+            }
+        ]
+    }
+}
